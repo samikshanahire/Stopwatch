@@ -1,0 +1,49 @@
+body{
+    background-image: url(w1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.stopwatch{
+    /* background-color: black; */
+    color: #9370DB
+    ;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    /* cursor: pointer; */
+}
+
+.stopwatch:hover{
+    background-color: #F5F5DC
+    ;
+}
+
+button{
+    border-radius: 60%;
+    background-color: grey;
+    color: navy;
+    border: 5px double black;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    width: 200px;
+    font-family: cursive;
+    font-size: 30px;
+}
+button:hover{
+    background-color: black;
+    color: grey;
+}
+
+h1,p{
+    text-shadow: 5px 6px 7px gray;
+    font-size: 40px;
+    font-family: cursive;
+}
